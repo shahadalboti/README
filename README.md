@@ -22,15 +22,15 @@ A website that resive speech from the user then convert it into text which is al
 ![Desktop view](/Screenshots/arm_d.png "Robot Arm Desktop view") 
 
 
-## Task2 
+## Task2 :
 
 
 
-## Task3 
+## Task3 :
 
 
 
-## Task4
+## Task4 :
 
 ## Implemented using 🛠️:
 * HTML-CSS-JS
