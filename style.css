@@ -1,0 +1,86 @@
+#info {
+    font-size: 20px;
+    text-align: center;
+}
+
+#div_start {
+    float: left;
+    position: relative;
+    left: 45%;
+}
+
+@media screen and (max-width: 480px) {
+    #div_start {
+        float: left;
+        position: relative;
+        left: 43%;
+
+    }
+}
+
+#headline {
+    text-decoration:none;
+}
+
+#results {
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #222021;
+    padding: 5px 5px 5px 5px;
+    padding: 25px;
+    text-align: right;
+
+
+
+
+
+}
+
+#start_button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+
+    border-radius: 30px;
+}
+
+.interim {
+    color: gray;
+}
+
+.final {
+    color: white;
+    padding-right: 3px;
+}
+
+buttons {
+    display: none;
+}
+
+.marquee {
+    margin: 20px auto;
+}
+
+#buttons {
+    margin: 10px 0;
+    position: relative;
+    top: -50px;
+}
+
+#copy {
+    margin-top: 0px;
+}
+
+    #copy > div {
+        display: none;
+        margin: 0 70px;
+    }
+
+a.c1 {
+    font-weight: normal;
+    color: white;
+}
+
+#my_button td {
+    height: 30px !important;
+}
