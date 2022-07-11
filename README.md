@@ -31,9 +31,9 @@ A website that resive speech from the user then convert it into text which is al
 ### Desktop View 🖥️
 ![Desktop view](/websiteRevel.png "website page") 
 
-## Task 1.2:
-## ESP32 ALGORITHM:
+## Task 1.2:ESP32 ALGORITHM:
 1-open the arduino and go to preferences
+
 2-put the url of the addetional Software in the " additional board manager URL" filed
 
 
