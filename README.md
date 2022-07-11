@@ -20,9 +20,11 @@ A website that resive speech from the user then convert it into text which is al
 
 ### web devolopment languages : 
 
-*[html](/index.html "html code")
-*[css](/script.js "JS code") 
-*[javaScript](/style.css "Css code")
+[html](/index.html "html code")
+
+[css](/script.js "JS code") 
+
+[javaScript](/style.css "Css code")
 
 ### Desktop View 🖥️
 ![Desktop view](/websiteRevel.png "website page") 
