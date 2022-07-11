@@ -40,7 +40,7 @@ A website that resive speech from the user then convert it into text which is al
 5-select the leastest virtion and then it will download all the needed settings.
 
 ##Flowchart for the algorithm
-![FlowChart](/websiteRevel.png "website page") 
+![FlowChart](/ESP32 algorthim.jpg) 
 ## Task2 :
 
 
