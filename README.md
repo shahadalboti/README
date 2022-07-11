@@ -17,6 +17,7 @@
 This repository includes my work on the IoT track during my training program at Smart Methods Company 
 
 ## Task1 :
+## Task 1.1:
 A website that resive speech from the user then convert it into text which is also allow you to select the accent of the resived speech.It is implemented by using 
 
 ### web devolopment languages : 
@@ -30,7 +31,16 @@ A website that resive speech from the user then convert it into text which is al
 ### Desktop View 🖥️
 ![Desktop view](/websiteRevel.png "website page") 
 
+## Task 1.2:
+## ESP32 ALGORITHM:
+1-open the arduino and go to preferences
+2-put the url of the addetional Software in the " additional board manager URL" filed
+3-instal the board in the arduino IDE
+4-Go to Tools ----> board----> board Manager and then search for ESP32
+5-select the leastest virtion and then it will download all the needed settings.
 
+##Flowchart for the algorithm
+![FlowChart](/websiteRevel.png "website page") 
 ## Task2 :
 
 
