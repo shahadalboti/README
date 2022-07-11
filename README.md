@@ -34,7 +34,7 @@ A website that resive speech from the user then convert it into text which is al
 ## Task 1.2: ESP32 ALGORITHM
 1-open the arduino and go to preferences
 
-2-put the url of the addetional Software in the " additional board manager URL" filed
+2-put the url of the additional Software in the " additional board manager URL" field
 
 
 3-instal the board in the arduino IDE
@@ -43,7 +43,7 @@ A website that resive speech from the user then convert it into text which is al
 4-Go to Tools ----> board----> board Manager and then search for ESP32
 
 
-5-select the leastest virtion and then it will download all the needed settings.
+5-select the latest version and then it will download all the needed settings.
 
 ### Flowchart for the algorithm
 ![Flowchart for the algorithm](/Flowchart.png "Flowchart") 
