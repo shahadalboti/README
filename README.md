@@ -62,9 +62,6 @@ A website that resive speech from the user then convert it into text which is al
 
 
 ## Resources 📜:
-- https://getbootstrap.com
 - https://www.w3schools.com
-- https://fontawesome.com
-- https://www.freepik.com
-- https://www.flaticon.com
+
 
