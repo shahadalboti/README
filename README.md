@@ -19,7 +19,7 @@ This repository includes my work on the IoT track during my training program at 
 A website that resive speech from the user then convert it into text which is also allow you to select the accent of the resived speech.It is implemented by using web devolopment languages : html , css , javaScript
 
 ### Desktop View 🖥️
-![Desktop view](/Screenshots/arm_d.png "Robot Arm Desktop view") 
+![Desktop view](/websiteRevel.png "website page") 
 
 
 ## Task2 :
