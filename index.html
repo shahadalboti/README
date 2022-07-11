@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar"  dir="rtl">
+<title="صوت الى نص">
+
+<body style="  background-image: linear-gradient(135deg, white, lightgreen, darkblue);">
+
+
+
+
+
+
+  <!DOCTYPE html>
+                                    <html class="no-js consumer" lang="ar"  dir="rtl">
+
+                                    <head>
+                                      <link rel="stylesheet" href="style.css">
+                                        <script>
+                                            (function (e, p) {
+                                                var m = location.href.match(/platform=(win8|win|mac|linux|cros)/);
+                                                e.id = (m && m[1]) ||
+                                                    (p.indexOf('Windows NT 6.2') > -1 ? 'win8' : p.indexOf('Windows') > -1 ? 'win' : p.indexOf('Mac') > -1 ? 'mac' : p.indexOf('CrOS') > -1 ? 'cros' : 'linux');
+                                                e.className = e.className.replace(/\bno-js\b/, 'js');
+                                            })(document.documentElement, window.navigator.userAgent)
+                                        </script>
+                                        <meta charset="utf-8">
+                                        <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+
+                                    </head>
+                                    <body class="" id="grid">
+                                        <br />
+                                        <center>
+                                            <div id="div_start">
+                                                <button id="start_button" onclick="startButton(event)"><img alt="ابداء" style="width:90px; height:100px;" id = "start_img"; src = '../task/mic.png'></button>
+                                            </div><br>
+                                            <br><br><br><br><br><br>
+                                            <div class="browser-landing" id="main">
+
+                                                <div class="compact marquee">
+                                                    <div id="info">
+                                                        <p style="font-family:cambria; font-size:21px;" id="info_start">
+                                                            اضغط الميكروفون للبداء. <br><br>
+                                                        </p>
+                                                        <p style="font-family:cambria; font-size:21px;" id="info_speak_now" style="display:none">
+                                                          تكلم الان<br><br>
+                                                        </p>
+                                                        <p id="info_no_speech" style="display:none">
+                                                          لم يتم العثور على صوت.
+                                                        </p>
+                                                        <p id="info_no_microphone" style="display:none">
+                                                          لا يوجد ميكروفون.
+                                                        </p>
+                                                        <p id="info_allow" style="display:none">
+                                                          اضغط على زر "سماح " للبدء.
+                                                        </p>
+                                                        <p id="info_denied" style="display:none">
+                                                          تم رفض استخدام الميكروفون.
+                                                        </p>
+                                                        <p id="info_blocked" style="display:none">
+                                                            Permission to use microphone is blocked. To change, go to chrome://settings/contentExceptions#media-stream
+                                                        </p>
+                                                        <p id="info_upgrade" style="display:none">
+                                                            Speech Recognition is not supported by this browser. Upgrade to <a href="//www.google.com/chrome" target="_blank">Chrome</a> version 25 or later.
+                                                        </p>
+                                                    </div>
+
+                                                    <div id="results" oncanplaythrough="playf();">
+                                                        <span class="final" id="final_span" name="final_span"></span> <span class="interim" id="interim_span"></span>
+                                                    </div><br>
+                                                    <table id="my_button2" style="visibility:visible;">
+                                                        <tr style='text-align:center;color:#FFFFFF;font-size:17px;'>
+                                                            <td class="Buttoncolor"> مجموع الكلمات: <span id="wordCount">0</span></td><br>
+                                                            <td class="Buttoncolor"> مجموع الاحرف: <span id="totalChars">0</span></td><br>
+                                                            <td class="Buttoncolor"> الاحرف (بدون المسافات): <span id="charCountNoSpace">0</span></td>
+                                                        </tr>
+                                                    </table><br />
+                                                    <table id="my_button" style="visibility:visible;" border="0">
+                                                        <tr style='text-align:center; color:#FFFFFF; font-size:17px;'>
+                                                             <td>
+                                                                <div id="copy">
+                                                                    <button class="button" id="copy_button" onclick="copyButton()"> نسخ </button>
+                                                                </div>
+                                                            </td>
+                                                            <td>
+                                                                <button class='button' id="print_button" type="button" name="print" onclick="printTextArea()" value="اطبع">اطبع <span class=" glyphicon glyphicon-print"></span></button>
+                                                                <input class='button' id="reset_button" type="button" value="اعادة تعيين " onClick="myFunction6()" />
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <div style="display:none;" id="copy_info">
+                                                        <p>
+                                                            Press Control-C to copy text.
+                                                        </p>
+                                                        <p>
+                                                            (Command-C on Mac.)
+                                                        </p>
+                                                    </div>
+
+                                                    <div class="compact marquee" id="div_language">
+                                                        <select id="select_language" style="padding:5px 5px 5px 5px;" onchange="updateCountry()"> </select>&nbsp;&nbsp;
+                                                        <select id="select_dialect">
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <ins class="adsbygoogle"
+                                                 style="display:block"
+                                                 data-ad-format="autorelaxed"
+                                                 data-ad-client="ca-pub-6503832583613828"
+                                                 data-ad-slot="3719409075"></ins>
+                                            <script>
+                                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                            </script>
+                                        </center>
+                                    </body>
+                                </html>
+
+
+</body>
+
+        <hr />
+    </div>
+<script src="./script.js"></script>
+
+
+</body>
+</html>
