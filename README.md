@@ -16,7 +16,9 @@
 This repository includes my work on the IoT track during my training program at Smart Methods Company 
 
 ## Task1 :
-A website that resive speech from the user then convert it into text which is also allow you to select the accent of the resived speech.It is implemented by using ####web devolopment languages : 
+A website that resive speech from the user then convert it into text which is also allow you to select the accent of the resived speech.It is implemented by using 
+
+####web devolopment languages : 
 *html(/index.html "html code")
 *css(/script.js "JS code") 
 *javaScript(/style.css "Css code")
